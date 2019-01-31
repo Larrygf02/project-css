@@ -10,8 +10,8 @@ body {
 .heading-primary {
     color: $color-white;
     text-transform: uppercase;
-
-    backface-visibility: hidden;
+    //define si la cara posterior de un elemento debe ser visible, util cuando se rota el elemento
+    backface-visibility: hidden; 
     margin-bottom: 6rem;
 
     &--main {
